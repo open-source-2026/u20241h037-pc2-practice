@@ -1,6 +1,6 @@
 package com.anaplan.platform.u20241h037estudiante.shared.interfaces.rest.transform;
 
-import com.acme.center.platform.shared.application.result.ApplicationError;
+import com.anaplan.platform.u20241h037estudiante.shared.application.result.ApplicationError;
 import org.jspecify.annotations.NullMarked;
 import org.jspecify.annotations.Nullable;
 import org.springframework.context.i18n.LocaleContextHolder;

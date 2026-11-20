@@ -1,6 +1,6 @@
 package com.anaplan.platform.u20241h037estudiante.shared.infrastructure.events;
 
-import com.acme.center.platform.shared.domain.model.aggregates.AbstractDomainAggregateRoot;
+import com.anaplan.platform.u20241h037estudiante.shared.domain.model.aggregates.AbstractDomainAggregateRoot;
 import org.jspecify.annotations.NullMarked;
 import org.jspecify.annotations.Nullable;
 import org.springframework.context.ApplicationEventPublisher;

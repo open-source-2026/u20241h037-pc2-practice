@@ -1,7 +1,7 @@
 package com.anaplan.platform.u20241h037estudiante.shared.interfaces.rest;
 
-import com.acme.center.platform.shared.application.result.ApplicationError;
-import com.acme.center.platform.shared.interfaces.rest.transform.ProblemDetailFromApplicationErrorAssembler;
+import com.anaplan.platform.u20241h037estudiante.shared.application.result.ApplicationError;
+import com.anaplan.platform.u20241h037estudiante.shared.interfaces.rest.transform.ProblemDetailFromApplicationErrorAssembler;
 import org.jspecify.annotations.NullMarked;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.HttpStatus;

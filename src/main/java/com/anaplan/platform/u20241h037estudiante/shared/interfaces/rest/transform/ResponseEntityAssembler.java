@@ -1,7 +1,7 @@
 package com.anaplan.platform.u20241h037estudiante.shared.interfaces.rest.transform;
 
-import com.acme.center.platform.shared.application.result.ApplicationError;
-import com.acme.center.platform.shared.application.result.Result;
+import com.anaplan.platform.u20241h037estudiante.shared.application.result.ApplicationError;
+import com.anaplan.platform.u20241h037estudiante.shared.application.result.Result;
 import org.jspecify.annotations.NullMarked;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
