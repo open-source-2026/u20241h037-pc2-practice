@@ -1,20 +1,19 @@
 package com.anaplan.platform.u20241h037estudiante.budgeting.domain.model.commands;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.util.UUID;
+import com.anaplan.platform.u20241h037estudiante.budgeting.domain.model.valueobjects.BudgetIdentifier;
+import com.anaplan.platform.u20241h037estudiante.budgeting.domain.model.valueobjects.BudgetStatus;
+import com.anaplan.platform.u20241h037estudiante.budgeting.domain.model.valueobjects.DepartmentId;
+import com.anaplan.platform.u20241h037estudiante.shared.domain.model.valueobjects.MonetaryAmount;
+import com.anaplan.platform.u20241h037estudiante.shared.domain.model.valueobjects.ValidityPeriod;
 
 public record CreateBudgetCommand(
 
-        UUID budgetId,
-        UUID departmentId,
-        String budgetStatus,
-        LocalDate startDate,
-        LocalDate endDate,
-        BigDecimal totalAmount,
-        String currency,
+        BudgetIdentifier budgetIdentifier,
+        DepartmentId departmentId,
+        ValidityPeriod period,
+        MonetaryAmount allocatedAmount,
+        BudgetStatus status,
         String description
-
 
 ) {
 }
